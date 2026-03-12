@@ -37,3 +37,14 @@ A **Retrieval-Augmented Generation (RAG)** system that allows users to query com
 ```bash
 git clone https://github.com/your-username/CompanyVacationPolicy-RAG.git
 cd CompanyVacationPolicy-RAG
+
+2. Create a virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+4. Make sure Ollama is running and the required models are installed:
+ollama pull all-minilm
+ollama pull llama2
