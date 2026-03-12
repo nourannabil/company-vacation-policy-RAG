@@ -34,11 +34,10 @@ A **Retrieval-Augmented Generation (RAG)** system that allows users to query com
 ## Setup Instructions
 
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/CompanyVacationPolicy-RAG.git
-cd CompanyVacationPolicy-RAG
+git clone https://github.com/Octavious/RAG_Sample.git
+cd RAG_Sample
 
-2. Create a virtual environment:
+3. Create a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
